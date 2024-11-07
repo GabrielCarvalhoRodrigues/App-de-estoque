@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList, SafeAreaView, Modal, TextInput, TouchableOpacity, Alert, Image } from 'react-native';
 import logo from "../../assets/snack-icon.png";
-import styles from '../styles/MenageInventoryStyles';
+import styles from '../styles/ManageInventoryStyles';
 
 const ManageInventory = ({ route }) => {
   const [items, setItems] = useState([]);
