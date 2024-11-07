@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import InventoryView from './src/views/InventoryView';
 import Login from './src/views/login';
-import MenageInventory from './src/views/MenageInventory';
+import ManageInventory from './src/views/ManageInventory';
 
 const Stack = createNativeStackNavigator();
 
